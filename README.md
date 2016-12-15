@@ -4,7 +4,10 @@ This is a data visualization project attempting to visualize the demographics of
 
 It's in very early stages but would love help refactoring the components and curating / collecting data.
 
-Pull requests are welcome
+Pull requests are welcome.
+
+## Dev setup
+```npm install && npm start```
 
 -------------------------
 
