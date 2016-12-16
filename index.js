@@ -25,7 +25,7 @@ mount('body', app.start())
 
 function mainView () {
   return html`
-    <body class="App pa4">
+    <body class="pa4">
       ${Stats({ wm: '1598944', population: '3893635' })}
 
       ${WhiteMale({ data: data.collections[0] })}
