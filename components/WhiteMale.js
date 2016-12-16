@@ -29,7 +29,7 @@ function WhiteMale (args) {
 
   return html`
     <section className=${cx.root}>
-      <h2 className='f5 fw6 mb1'>{data.title}</h2>
+      <h2 className='f5 fw6 mb1'>${data.title}</h2>
       <div className='bl bt dib'>
       ${data.items.map((item, i) => html`
         <div key=${i} className=${cx.cell}>
