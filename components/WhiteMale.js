@@ -1,9 +1,9 @@
 var html = require('choo/html')
 var cxs = require('cxs').default
 
-module.exports = WhitePerson
+module.exports = WhiteMale
 
-function WhitePerson (args) {
+function WhiteMale (args) {
   var data = args.data
 
   var cx = {
