@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "bankai": "^5.1.3"
+    "bankai": "^5.1.3",
+    "standard": "^8.6.0"
   },
   "dependencies": {
     "choo": "^4.0.1",
@@ -12,6 +13,7 @@
   },
   "scripts": {
     "start": "bankai",
-    "build": "bankai build"
+    "build": "bankai build",
+    "test": "standard"
   }
 }
