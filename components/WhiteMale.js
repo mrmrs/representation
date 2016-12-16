@@ -31,12 +31,12 @@ function WhiteMale (args) {
 
   return html`
     <section>
-      <h2 className='f5 fw6 mb1'>${data.title}</h2>
-      <div className='bl bt dib'>
+      <h2 class='f5 fw6 mb1'>${data.title}</h2>
+      <div class='bl bt dib'>
       ${data.items.map((item, i) => html`
-        <div key=${i} className=${cxCell}>
-          <h1 className=${cxText}>${item.title}</h1>
-          <h2 className=${cxText}>${item.name}</h2>
+        <div key=${i} class=${cxCell}>
+          <h1 class=${cxText}>${item.title}</h1>
+          <h2 class=${cxText}>${item.name}</h2>
         </div>
       `)}
       </div>

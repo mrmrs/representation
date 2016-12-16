@@ -42,16 +42,16 @@ function ActualPopulation (args) {
   var unfilledCells = []
 
   for (var i = 0; i < filledCount; i++) {
-    filledCells.push(html`<div className=${cxFilled} key=${i} />`)
+    filledCells.push(html`<div class=${cxFilled} key=${i} />`)
   }
   for (var x = 0; x < unfilled; x++) {
-    unfilledCells.push(html`<div className=${cxUnfilled} key=${x} />`)
+    unfilledCells.push(html`<div class=${cxUnfilled} key=${x} />`)
   }
 
   return html`
-    <section className=${cxRoot}>
-      <h2 className='f5 fw6 mt2 mb1'>Equal Representation</h2>
-      <div className="dib bt bl">
+    <section class=${cxRoot}>
+      <h2 class='f5 fw6 mt2 mb1'>Equal Representation</h2>
+      <div class="dib bt bl">
         ${filledCells}
         ${unfilledCells}
       </div>

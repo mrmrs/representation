@@ -34,11 +34,11 @@ function Stats (args) {
   var populationPercentage = ((wm / population) * 100).toFixed(2)
 
   return html`
-    <header className=${cxRoot}>
-      <h1 className=${cxTitle}>
+    <header class=${cxRoot}>
+      <h1 class=${cxTitle}>
         In 1790 white males made up <b>${populationPercentage}%</b> of the U.S. population
       </h1>
-      <h2 className=${cxDescription}>Population Total: ${population}</h2>
+      <h2 class=${cxDescription}>Population Total: ${population}</h2>
     </header>
    `
 }
