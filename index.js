@@ -17,7 +17,7 @@ css`
   }
 `
 
-css('tachyons')
+css('tachyons-lite')
 
 var app = choo()
 app.router(['/', mainView])
